@@ -11,8 +11,15 @@
         @content;
     }
 }
+
 @mixin desktop {
     @media (min-width: v.$desktop) {
         @content;
     }
+}
+
+@mixin grid( $columnas, $separacion) {
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap: $separacion;
 }
