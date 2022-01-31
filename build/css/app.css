@@ -887,7 +887,7 @@ h3 {
   font-weight: 700;
   text-transform: uppercase;
 }
-.formulario .campo input[type=submit]:hove {
+.formulario .campo input[type=submit]:hover {
   cursor: pointer;
 }
 
@@ -908,3 +908,4 @@ h3 {
 }
 
 /* se carga al ultimo porque realizar modificaciones en ciertas propiedades */
+/*# sourceMappingURL=app.css.map */
