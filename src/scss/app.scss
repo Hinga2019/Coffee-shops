@@ -3,3 +3,5 @@
 @use 'inicio';
 @use 'footer';
 @use 'internas';
+
+@use 'utilidades'; /* se carga al ultimo porque realizar modificaciones en ciertas propiedades */
